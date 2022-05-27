@@ -2,7 +2,6 @@
 
 1. Matrícula
    - 202004759
-     - Segundo item de lista aninhada
 
 2. Nome: João Mário Fidelis Martins.
 
