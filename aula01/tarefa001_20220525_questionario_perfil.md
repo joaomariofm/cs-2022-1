@@ -3,7 +3,8 @@
 1. Matrícula
    - 202004759
 
-2. Nome: João Mário Fidelis Martins.
+2. Nome:
+   - João Mário Fidelis Martins.
 
 3. Qual seu conhecimento/experiência em relação ao desenvolvimento de software?  Estou no quinto período do curso de Engenharia de Software da UFG e trabalho a 6 meses como desenvolvedor frontend.
 5. Quais Linguagens de Programação você domina?
