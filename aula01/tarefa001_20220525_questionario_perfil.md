@@ -8,15 +8,27 @@
 
 3. Qual seu conhecimento/experiência em relação ao desenvolvimento de software?
    - Estou no quinto período do curso de Engenharia de Software da UFG e trabalho a 6 meses como desenvolvedor frontend.
-5. Quais Linguagens de Programação você domina?
-   - Domino as linguagens C e JavaScript
-6. Conhece o paradigma de programação orientado a objetos?
-   - Sim, concluí a matéria de Programação Orientada a Objeto ofericida pelo INF
-7. Tem alguma experiência com desenvolvimento de Serviços _Rest_?
-8. Tem conhecimento sobre bancos de dados relacionais?
-9. Tem conhecimento sobre bancos de dados não relacionais (_NoSQL_)?
-10. Tem conhecimento a respeito de controle de versões? Sabe usar corretamente softwares de controle de versão, dentre eles o _github_?
-11. Tem conta no _github_?
+
+4. Quais Linguagens de Programação você domina?
+   - Domino as linguagens C e JavaScript.
+
+5. Conhece o paradigma de programação orientado a objetos?
+   - Sim, concluí a matéria de Programação Orientada a Objeto ofericida pelo INF.
+
+6. Tem alguma experiência com desenvolvimento de Serviços _Rest_?
+   - Sim, tenho contato com essa estutura de serviços no trabalho e já a utilizei em alguns projetos pessoais.
+
+7. Tem conhecimento sobre bancos de dados relacionais?
+   - Sim, tive contato com bancos de dados relacionais por meio da matéria de Banco de Dados ofertada pelo INF.
+
+8. Tem conhecimento sobre bancos de dados não relacionais (_NoSQL_)? 
+   - Não, não tenho muito conhecimento sobre esse tipo de banco de dados.
+
+9. Tem conhecimento a respeito de controle de versões? Sabe usar corretamente softwares de controle de versão, dentre eles o _github_?
+   - Sim, já tive bastante contato com git e github
+
+10. Tem conta no _github_?
+   - Sim, minha conta é JoaoMario17
 
 
   9.1.  Se sim:
@@ -28,7 +40,9 @@
       *  Crie um repositório com o nome **cs-2022-1** e compartilhe com o professor.Meu usuário no _github_ é **gilmarioArantes**;
 
 10. Você possui algum impedimento para trabalhar em equipe?
+    - Não, não possuo nenhum impedimento para trabalhar em equipe
 11. Você possui equipamento adequado para a implementação das atividades relacionadas à disciplina? Atividades complementares, extra-classe.
+    - Sim, possuo
 
 INSTRUÇÕES:
 1. Este é um arquivo no formato _markdown_ (.md), caso você precise de orientações a respeito da forma como editar este tipo de arquivo, acesso este [link](https://guides.github.com/features/mastering-markdown/);
