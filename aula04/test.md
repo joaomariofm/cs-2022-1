@@ -23,4 +23,4 @@ return true
 
 
 * [ ] task list item
-* [ ] task list item checked 
+* [x] task list item checked 
