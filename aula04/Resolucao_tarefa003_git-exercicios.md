@@ -4,6 +4,10 @@ Responda as questões abaixo (exercite os comandos do git correspondentes). Lemb
 
 
 1. Qual o comando para obter a versão instalada do Git?
+   - o comando utilizado para obter a versão instalada do git é 
+   ```
+    git --version
+   ```
 2. Qual o efeito da execução de cada um dos comandos abaixo?
   a. git help
   b. git help checkout
