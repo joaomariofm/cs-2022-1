@@ -9,25 +9,25 @@ Responda as questões abaixo (exercite os comandos do git correspondentes). Lemb
     git --version
    ```
 2. Qual o efeito da execução de cada um dos comandos abaixo?
-  a. git help
+   - a. git help
      - O comando git help exibe uma lista de comandos comuns utilizados juntamente com as descrições das funcionalidades de alguns comandos 
-  b. git help checkout
+   - b. git help checkout
      - O comando git help checkout exibe as especificações de uso do comando checkout
-  c. git help merge
+   - c. git help merge
      - O comando git help merge exibe as especificações de uso do comando merge 
-  d. git init
+   - d. git init
      - O comando git init serve para iniciar um novo projeto que utilizará git 
-  e. git add --all
+   - e. git add --all
      - O comando git add adiciona todos os novos arquivos e alterações feitas em arquivos existentes ao projeto, a descrição dada pelo git sobre esse comando diz que "ele adiciona todas as atualizações ao index"
-  f. git add -u
+   - f. git add -u
      - O comando git add -u também realiza a ação de atulizar o projeto com os alterações que foram feitas, porem, ele não adiciona novos arquivos caso eles existam
-  g. git config -l
+   - g. git config -l
      - O comando git config -l exibe uma lista contendo todas as variáveis existentes no arquivo de configuração do git 
-  h. git mv a.txt b.txt
+   - h. git mv a.txt b.txt
      - A execução do comando acima irá alterar o nome do arquivo a.txt para b.txt
-  i. git reset --hard
+   - i. git reset --hard
      - O comando reset --hard irá resetar o projeto, revertendo commits e apagando arquivos que haviam previamente sido adicionados 
-  j. git log -27
+   - j. git log -27
      - O comando git log -27 irá exibir o histórico dos últimos 27 commits
 3. O fluxo “clássico” de interação com o Git é algo como “alterar um ou mais arquivos”, “acrescentar essas mudanças para serem contemplados no próximo commit” e, finalmente, executar um “commit”. Quais os comandos necessários para realizar os dois últimos “passos” desse fluxo?
 4. Qual o comando deve ser executado para identificar o que foi alterado desde o último “commit”?
