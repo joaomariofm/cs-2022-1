@@ -122,12 +122,25 @@ Responda as questões abaixo (exercite os comandos do git correspondentes). Lemb
 23. jQuery é uma famosa biblioteca em JavaScript. Consulte detalhes em [jQuery](http://jquery.com). O repositório correspondente encontra-se em [gitRep](https://github.com/jquery/jquery.git). Faça o clone deste repositório.
 24. No repositório **jqueryrepo**, criado no passo anterior, qual o efeito do comando
 **git shortlog -sne**?
+    - Esse comando exibq uma lista contendo os últimos commits que foram feitos, juntamente o nome e email dos usuários que realizaram esses commits 
 25. No repositório **jqueryrepo**, qual o efeito de **git remote -v**?
+    - Esse comando exibe o endereço dos repostórios remotos aos quais o projeto está associado
 26. Um repositório Git pode ser etiquetado ao longo do tempo. Ou seja, _commits_ específicos podem ser “marcados” ou “etiquetados” para facilitar referências posteriores. Para listar todas as “etiquetas” (_tags_) estabelecidas para um dado repositório, qual comando deve ser executado?
+    - O comando utilizado para listar as tags de um projeto é o sequinte comando
+      ```
+       git tag
+      ```
 27. Caso um dato repositório retorne muitas “marcas” ou “etiquetas” para o comando **git tag**, como retornar apenas aquelas que atendem a determinado padrão, por exemplo, iniciadas por 2.0?
+    - Para realizar essa tarefa podemos executar o comando git tag da seuinte forma
+      ```
+       git tag -l '2.0*'
+      ```
 28. Qual o efeito do comando **git tag -a 3.4-gold -m “minha versão ouro”**?
+    - O git nos retorna uma mensagem dizendo "fatal: too many params" indicando que forma passados parâmetros em excesso
 29. Após executado o comando acima, qual o efeito de **git show 3.4-gold**?
+    - O git nos retorna uma mensagem dizendo "fatal: ambiguous argument '3.4-gold': unknown revision or path not in the working tree."
 30. O que o comando **git push origin 3.4-gold** teria como efeito?
+    - Caso existisse uma branch com esse nome poderiamos enviar qualquer commit feito locamente para essa branch no repositório remoto
 31. Após executar um commit, qual o efeito de **git commit --amend**?
 32. Após executar **git add x.txt**, qual o efeito de **git reset HEAD x.txt**?
 33. Após alterar o conteúdo de um arquivo committed em passo anterior, qual o efeito do comando **git checkout -- a.txt**?
