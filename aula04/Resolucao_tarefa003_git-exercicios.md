@@ -142,9 +142,13 @@ Responda as questões abaixo (exercite os comandos do git correspondentes). Lemb
 30. O que o comando **git push origin 3.4-gold** teria como efeito?
     - Caso existisse uma branch com esse nome poderiamos enviar qualquer commit feito locamente para essa branch no repositório remoto
 31. Após executar um commit, qual o efeito de **git commit --amend**?
+    - A excução desse comando permite a edição do último commit feito
 32. Após executar **git add x.txt**, qual o efeito de **git reset HEAD x.txt**?
+    - Esse último comando retorna o arquivo x.txt para o estado de _untracked_
 33. Após alterar o conteúdo de um arquivo committed em passo anterior, qual o efeito do comando **git checkout -- a.txt**?
+    - Ele retornará ao estado anterior as mudanças realizadas no arquivo a.txt
 34. Qual a diferença entre os comandos **git reset HEAD a.txt** e **git checkout -- a.txt**?
+    - O primeiro leva em consideração as mudanças realizadas no projeto e o segundo leva em consideração as mudanças realizadas naquele arquivo específico
 35. Veja como interpretar o resultado de git diff [aqui](https://medium.com/therobinkim/how-to-read-a-git-diff-6c87a9dc47c5). Execute, em um dos seus projetos, o comando **git diff HEAD~1 HEAD** e certifique-se de que entende o resultado apresentado.
 
 </DIV/>
