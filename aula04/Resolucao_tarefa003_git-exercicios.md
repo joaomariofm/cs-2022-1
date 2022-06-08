@@ -41,12 +41,35 @@ Responda as questões abaixo (exercite os comandos do git correspondentes). Lemb
       git commit -m "Mensagem do commit"
      ```
 4. Qual o comando deve ser executado para identificar o que foi alterado desde o último “commit”?
+   - O comando utilizado para monitorar as modificações feitas entre commits é 
+     ```
+      git diff
+     ```
 5. Em um dado repositório, arquivos simplesmente copiados para lá, ou seja, _untracked_, podem ser exibidos/identificados com que comando?
+   - É possível identifica-los apartir do seguinte comando git
+     ```
+      git status
+     ```
 6. Qual o comando para efetuar um _commit_?
+   - O comando usado para realizar um commit é o comando 
+     ```
+      git commit
+     ```
 7. Qual o comando que devemos empregar para descartar mudanças ocorridas no arquivo teste.txt, por exemplo?
+   - Podemos descartar mudanças feitas no arquivo teste.txt com o seguinte comando 
+     ```
+      git reset teste.txt
+     ```
 8. O que deve ser feito para que um determinado diretório do seu repositório seja ignorado pelo Git? Faça uma busca por **.gitignore**.
+   - Para que um determinado diretário seja igorado precisamos criar um arquivo com o nome **.gitignore** e adicionar os diretórios que devem ser ignorados q esse arquivo 
 9. O que acontece se o seu repositório local for acidentalmente removido?
+   - Caso esse repositório esteja hospedado em um repositório no github é possível clona-lo para sua máquina recuperando o que foi perdido 
 10. Como clonar um repositório remoto?
+    - É possível clonar um repositório utilizando o seguinte comando 
+      ```
+       git clone 
+      ```
+      seguindo do link referente ao repositório
 11. Em alguns cenários **git log** pode produzir extensos resultados. Se houver interesse em visualizar o histórico de um repositório, onde cada mudança é fornecida exatamente em uma única linha, qual o comando que deve ser empregado?
 12. Em qual arquivo o Git armazena informações de configuração empregadas por usuário?
 13. Qual o comando para criar um repositório local?
