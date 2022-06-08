@@ -30,6 +30,16 @@ Responda as questões abaixo (exercite os comandos do git correspondentes). Lemb
    - j. git log -27
      - O comando git log -27 irá exibir o histórico dos últimos 27 commits
 3. O fluxo “clássico” de interação com o Git é algo como “alterar um ou mais arquivos”, “acrescentar essas mudanças para serem contemplados no próximo commit” e, finalmente, executar um “commit”. Quais os comandos necessários para realizar os dois últimos “passos” desse fluxo?
+   - Os comandos necessários para realizar os dois últimos passos são respectivamente:
+     ```
+      git add
+      git commit
+     ```
+     Para adicionar todas as alterações feitas, e depois realizar um commit contendo uma mensagems podemos executar esses comandos da seguinte forma 
+     ```
+      git add .
+      git commit -m "Mensagem do commit"
+     ```
 4. Qual o comando deve ser executado para identificar o que foi alterado desde o último “commit”?
 5. Em um dado repositório, arquivos simplesmente copiados para lá, ou seja, _untracked_, podem ser exibidos/identificados com que comando?
 6. Qual o comando para efetuar um _commit_?
