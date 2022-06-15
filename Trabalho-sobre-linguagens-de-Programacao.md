@@ -64,9 +64,9 @@ JavaScript é uma linguagem de programação que permite a você implementar it
 
 O JavaScript está em vária aplicações que qualquer pessoa que tenha visitado páginas web interativas ou aplicativos móveis provavelmente terá experimentado. Embora o desenvolvimento de sites – incluindo a adição de elementos como formas interativas e animações – seja o uso mais tradicional para o JavaScript, ele também encontra uso em:
 
-- J**ogos baseados em navegador da Web** - incluindo jogos 2D e 3D
-- • **Desenvolvimento de aplicativos móveis** - benéfico porque é agnóstico da plataforma telefônica
-- • **Apresentações** - a criação de plataformas de slides animados baseados na web
+- **Jogos baseados em navegador da Web** - incluindo jogos 2D e 3D
+- **Desenvolvimento de aplicativos móveis** - benéfico porque é agnóstico da plataforma telefônica
+- **Apresentações** - a criação de plataformas de slides animados baseados na web
 
 Embora a maioria dos aplicativos JavaScript sejam do lado do cliente, o JavaScript também é útil em aplicativos do lado do servidor, tais como a criação de servidores web.
 
