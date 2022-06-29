@@ -24,8 +24,8 @@ int main(void) {
 	printf("A média aritmética entre %.1f, %.1f e %.1f é %.1f\n", numeros[0], numeros[1], numeros[2], primeiraMedia);
 
 	numeros[0] = 4;
-        numeros[1] = 5;
-        numeros[2] = 6;
+	numeros[1] = 5;
+	numeros[2] = 6;
 
 	float segundaMedia = mediaAritmetica(numeros,3);
 
