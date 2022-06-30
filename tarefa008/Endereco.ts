@@ -32,4 +32,20 @@ export class Endereco {
   public get numero() {
     return this._numero;
   }
+
+  public get complemento() {
+    return this._complemento;
+  }
+
+  public get CEP() {
+    return this._CEP;
+  }
+
+  public get tipoEndereco() {
+    return this._tipoEndereco;
+  }
+
+  public get bairro() {
+    return this._bairro;
+  }
 }

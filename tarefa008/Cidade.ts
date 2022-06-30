@@ -13,4 +13,13 @@ export class Cidade {
   set estado(novoEstado:Estado) {
     this.estado = novoEstado;
   }
+
+  //getters
+  public get nome() {
+    return this._nome;
+  }
+
+  public get estado() {
+    return this._estado;
+  }
 }

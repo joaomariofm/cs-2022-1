@@ -22,4 +22,13 @@ export class Logradouro {
   set tipoLogradouro(novoTipo:TipoLogradouro) {
     this._tipoLogradouro = novoTipo;
   }
+
+  //getters
+  public get nome() {
+    return this._nome;
+  }
+
+  public get tipoLogradouro() {
+    return this._tipoLogradouro;
+  }
 }

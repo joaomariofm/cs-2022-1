@@ -15,4 +15,13 @@ export class Estado {
   set pais(novoPais:Pais) {
     this.pais = novoPais;
   }
+
+  //getters
+  public get sigla() {
+    return this._sigla;
+  }
+
+  public get pais() {
+    return this._pais;
+  }
 }

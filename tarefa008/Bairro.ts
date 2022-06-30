@@ -13,4 +13,13 @@ export class Bairro {
   set cidade(novaCidade:Cidade) {
     this._cidade = novaCidade;
   }
+
+  //getters
+  public get nome() {
+    return this._nome;
+  }
+
+  public get cidade() {
+    return this._cidade;
+  }
 }
