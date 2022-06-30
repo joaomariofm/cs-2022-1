@@ -1,0 +1,16 @@
+{
+  "name": "tarefa008",
+  "version": "1.0.0",
+  "description": "",
+  "main": "PessoaFisica.js",
+  "scripts": {
+    "compile" : "tsc -t es5 testing.ts",
+    "test": "node testing.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^4.7.4"
+  }
+}
