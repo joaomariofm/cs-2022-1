@@ -8,6 +8,7 @@ function mostraDescricoes(carrinhoDeItens: Array<Produto>) {
     console.log(item.descricao);
   })
 }
+
 const mouse1 = new Mouse('gamer', 'Esse é um mouse gamer de auta performace');
 const mouse2 = new Mouse('produtividade', 'Esse é um mouse voltado para a produtividade');
 const livro1 = new Livro('Tolkien', 'Esse livro conta a história de um hobbit medroso que parte em uma grande aventura');
