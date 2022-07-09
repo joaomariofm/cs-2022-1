@@ -71,36 +71,17 @@ function merge(array, l, m, r)
 
 // l is for left index and r is
 // right index of the sub-array
-// of arr to be sorted 
+// of arr to be sorted W
 function mergeSort(arr, l, r){
+
   if(l>=r){
     return;//returns recursively
   }
+
   var m = l + parseInt((r-l)/2);
   mergeSort(arr,l,m);
   mergeSort(arr,m+1,r);
   merge(arr,l,m,r);
 }
 
-// UTILITY FUNCTIONS
-// Function to print an array
-function printArray( A, size)
-{
-  for (var i = 0; i < size; i++)
-    process.stdout.write(`${A[i]} `);
-
-  process.stdout.write('\n');
-}
-
-
-var input_array = [ 12, 11, 13, 5, 6, 26 ];
-  var arr_size = input_array.length;
-
-  console.log('Given array');
-  printArray(input_array, arr_size);
-  process.stdout.write('\n');
-
-  mergeSort(input_array, 0, arr_size - 1);
-
-  console.log('Sorted array');
-  printArray(input_array, arr_size);
+export {mergeSort};
