@@ -1,5 +1,5 @@
 import { generateRamdomArray, printArray } from './utilities/index.js'
-import { mergeSortIterativo, mergeSortRecursivo } from './mergeSort/index.js'
+import { mergeSortRecursivo } from './mergeSort/index.js'
 
 var first_array = generateRamdomArray(100);
 var second_array = generateRamdomArray(1000);

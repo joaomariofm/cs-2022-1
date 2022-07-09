@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "node --stack-size=10000 Teste.js"
+    "mergeSortRecursivo": "node --stack-size=10000 TesteRecursivo.js",
+    "mergeSortIterativo": "node --stack-size=10000 TesteIterativo.js"
   },
   "type": "module",
   "keywords": [],

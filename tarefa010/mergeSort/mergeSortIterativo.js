@@ -68,28 +68,19 @@ function merge(array, l, m, r) {
   }
 }
 
-function mergeSort(arr, l) {
-  let elementos = 1;
-  let inicio, meio, fim;
+function mergeSort(arr , n) {
 
-  while (elementos < l) {
-    inicio = 0;
+  var curr_size;
+  var left_start;
 
-    while (inicio + elementos < l) {
-      meio = inicio + elementos;
-
-      fim = inicio + 2 * elementos;
-
-      if (fim > l)
-        fim = l;
-
-      merge(arr, inicio, meio, fim);
-
-      inicio = fim;
+  for (curr_size = 1; curr_size <= n - 1; curr_size = 2 * curr_size) {
+    for (left_start = 0; left_start < n - 1; left_start += 2 * curr_size) {
+      
+      var mid = Math.min(left_start + curr_size - 1, n - 1);
+      var right_end = Math.min(left_start + 2 * curr_size - 1, n - 1);
+      merge(arr, left_start, mid, right_end);
     }
-
-    elementos = elementos * 2;
   }
 }
 
-export {mergeSort};
+export { mergeSort };
