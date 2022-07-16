@@ -1,3 +1,5 @@
+package tarefa012;
+
 import java.util.InputMismatchException;
 import java.util.Scanner;
 
